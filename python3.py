@@ -13,15 +13,15 @@
 #    print("odd number")  
 
 #Nested if statment
-height = int(input("Enter the height in cm:  "))
-age = int(input("Enter your age"))
-if height >= 170:
-  print("He is eligible")
-    if age < 12:
-   print("Pay 10 rupees")
-  elif age <=18:
-   print("Pay 20 rupees")
-  else:
-   print("pay 30 rupees")
-else:
-  print("Not eligible")  
+#height = int(input("Enter the height in cm:  "))
+#age = int(input("Enter your age"))
+#if height >= 170:
+#  print("He is eligible")
+#    if age < 12:
+#   print("Pay 10 rupees")
+#  elif age <=18:
+#   print("Pay 20 rupees")
+#  else:
+#   print("pay 30 rupees")
+#else:
+#  print("Not eligible")  
