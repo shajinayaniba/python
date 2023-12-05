@@ -5,3 +5,9 @@
 #else:
 #  print("Not eligible")
 
+#To find odd or even
+number = int(input("enter the number to find odd or even:  "))
+if number % 2 == 0:
+    print("even number")
+else: 
+    print("odd number")    
