@@ -27,7 +27,7 @@ else:
  print("Not eligible") 
 # 
 #  BMI Calculator
-height = float(input("enter your height in m: "))
+height = float(input("enterr your height in m: "))
 weight = float(input("enter your weight in kg: "))
 bmi = round(weight / height **2)
 if bmi < 18.5:
