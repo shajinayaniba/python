@@ -13,8 +13,8 @@
 #    print("odd number")  
 
 #Nested if statment
-height = input("Enter the height in cm:  "))
-age = input("Enter your age"))
+height = input("Enter the height in cm:  ")
+age = input("Enter your age")
 if height >= 170:
  print("He is eligible")
  if age < 12:
