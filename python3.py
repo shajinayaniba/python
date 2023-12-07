@@ -13,30 +13,30 @@
 #    print("odd number")  
 
 #Nested if statment
-#height = int(input("Enter the height in cm:  "))
-#age = int(input("Enter your age"))
-#if height >= 170:
-#  print("He is eligible")
-#    if age < 12:
-#   print("Pay 10 rupees")
-#  elif age <=18:
-#   print("Pay 20 rupees")
-#  else:
-#   print("pay 30 rupees")
-#else:
-#  print("Not eligible") 
+height = int(input("Enter the height in cm:  "))
+age = int(input("Enter your age"))
+if height >= 170:
+ print("He is eligible")
+   if age < 12:
+  print("Pay 10 rupees")
+ elif age <=18:
+  print("Pay 20 rupees")
+ else:
+  print("pay 30 rupees")
+else:
+ print("Not eligible") 
 # 
 #  BMI Calculator
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg: "))
-bmi = round(weight / height **2)
-if bmi < 18.5:
- print(f"your bmi is {bmi} ,you are underweight.")
-elif bmi < 25:
- print(f"your bmi is {bmi} ,you are normalweight.")
-elif bmi < 30:
- print(f"your bmi is {bmi} ,you are overweight.")
-elif bmi < 35:
- print(f"your bmi is {bmi} ,you are obese.")
-else:
- print(f"your bmi is {bmi} ,you are clinically obeseee.")
+# height = float(input("enter your height in m: "))
+# weight = float(input("enter your weight in kg: "))
+# bmi = round(weight / height **2)
+# if bmi < 18.5:
+#  print(f"your bmi is {bmi} ,you are underweight.")
+# elif bmi < 25:
+#  print(f"your bmi is {bmi} ,you are normalweight.")
+# elif bmi < 30:
+#  print(f"your bmi is {bmi} ,you are overweight.")
+# elif bmi < 35:
+#  print(f"your bmi is {bmi} ,you are obese.")
+# else:
+#  print(f"your bmi is {bmi} ,you are clinically obeseee.")
