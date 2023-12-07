@@ -39,4 +39,4 @@
 # elif bmi < 35:
 #  print(f"your bmi is {bmi} ,you are obese.")
 # else:
-#  print(f"your bmi is {bmi} ,you are clinically obesee.")
+#  print(f"your bmi is {bmi} ,you are clinically obeseee.")
