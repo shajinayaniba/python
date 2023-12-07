@@ -31,4 +31,4 @@ jobs:
     
     - name: Test with pytest
       run: |
-        python3.py
+        python python3.py
