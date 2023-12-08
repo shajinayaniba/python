@@ -13,27 +13,27 @@
 #    print("odd number")  
 
 #Nested if statme
-height = float(input("Enter the height in cm:  "))
-age = float(input("Enter your age"))
-bill = 0
-if height >= 170:
- print("He is eligible")
- if age < 12:
-  bill = 10
-  print("Pay 10 rupees")
- elif age <=18:
-  bill = 20
-  print("Pay 20 rupees")
- else:
-  bill =30
-  print("pay 30 rupees")
-  wantphoto = input("Want photo yes or no ")
-  if wantphoto == "yes":
-   bill += 3
-   print(f"your bill is {bill}")
+# height = float(input("Enter the height in cm:  "))
+# age = float(input("Enter your age"))
+# bill = 0
+# if height >= 170:
+#  print("He is eligible")
+#  if age < 12:
+#   bill = 10
+#   print("Pay 10 rupees")
+#  elif age <=18:
+#   bill = 20
+#   print("Pay 20 rupees")
+#  else:
+#   bill =30
+#   print("pay 30 rupees")
+#   wantphoto = input("Want photo yes or no ")
+#   if wantphoto == "yes":
+#    bill += 3
+#    print(f"your bill is {bill}")
    
-else:
-  print("Not eligible") 
+# else:
+#   print("Not eligible") 
 # 
 #  BMI Calculator
 # height = float(input("enterr your height in m: "))
