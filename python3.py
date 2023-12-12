@@ -49,4 +49,23 @@
 #  print(f"your bmi is {bmi} ,you are obese.")
 # else:
 #  print(f"your bmi is {bmi} ,you are clinically obeseee.")
-#-----------------------------------------
+#-----------------------------------------Treasure Island
+# print("Welcome to treasure Island")
+# print("you need to find the treasure")
+# choice1 = input('you\'ve need to cross the road to "left" or "right"').lower()
+# if choice1 == "left":
+#  choice2 = input("you can continue, type " "wait" or "swim").lower()
+#  if choice2 == "wait":
+#   choice3 = input("dooor blue or yellow or red").lower()
+#   if choice3 == "blue":
+#    print("game end")
+#   elif choice3 == "yellow":
+#    print("you have got treasure")
+#   elif choice3 == "red":
+#    print("fire")
+#  else:
+#   print("you have lost")
+# else:    
+#  print("youre game is over")
+
+
