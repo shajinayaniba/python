@@ -84,12 +84,7 @@ random.shuffle(password_list)
 password = ""
 for char in password_list:
     password += char
-print("char", char)
-
-# convert list to string
-pwd = ''.join(password_list)
-print(f"Your random password to use is: {pwd}")
-
+print(f"Your random password to use is: {password}")
 
 
 
