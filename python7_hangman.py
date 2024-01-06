@@ -7,4 +7,7 @@ for letter in chosen_word:
         print("Right")
     else:
         print("wrong")
-
+display = []
+for _ in range(len(chosen_word)):
+    display += "_"
+print(display)
