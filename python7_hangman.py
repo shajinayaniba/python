@@ -7,10 +7,15 @@ for _ in range(word_length):
     display += "_"
 print(display)
 
-guess = input("Enter the letter: ").lower()
-for postion in range(word_length):
-    letter = chosen_word[postion]
-    if letter == guess:
-        display[postion] = letter
+end_of_game = False
+while not end_of_game:
+    guess = input("Enter the letter: ").lower()
+    for postion in range(word_length):
+        letter = chosen_word[postion]
+        if letter == guess:
+            display[postion] = letter
+    if "_" not in display:
+        end_of_game = True
+        print("you win")        
     
 
