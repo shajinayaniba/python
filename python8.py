@@ -44,3 +44,17 @@ def encrypt(plain_text, shift_amount):
     print(f"The encoded code is {cipher_text}")
 
 encrypt(plain_text=text, shift_amount=shift)
+
+def decrypt(cipher_text, shift_amount):
+    plain_text = ""
+    for letter in cipher_text:
+        postion = alphabet.index(letter)
+        new_positon = postion - shift_amount
+        plain_text += alphabet[new_positon]
+    print(f"The decoded code is {plain_text}")
+
+if direction == "encode":
+    encrypt(plain_text = text, shift_amount = shift)
+elif direction == "decode":
+    decrypt(cipher_text = text, shift_amount = shift)
+
